@@ -1,0 +1,31 @@
+.solbaşlık{
+  top: 50px;
+  left: 0px;
+  bottom: 0px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  position: fixed;
+  z-index: 101;
+  padding-top: 10px;
+}
+
+.solkutu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  height: 74px;
+  cursor: pointer;
+}
+
+.solbaşlık img{
+  height: 24px;
+  margin-bottom: 5px;
+}
+
+.solkutu:hover{
+  background-color: rgb(230, 230, 230);
+}

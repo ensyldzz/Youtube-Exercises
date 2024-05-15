@@ -1,0 +1,177 @@
+.başlık{
+  display: flex;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  z-index: 100;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 54px;
+}
+
+.sol{
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+}
+
+.hamburger{
+  height: 25px;
+  margin: 10px 5px 10px 20px;
+  cursor: pointer;
+}
+
+.youtubelogo{
+  height: 20px;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+
+.orta{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.aramabarı{
+  display: flex;
+  flex: 1;
+  max-width: 350px;
+  font-family: Roboto,Arial;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  border: 1px solid rgb(204, 204, 204);
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+.aramabutonu{
+  position: relative;
+  background-color: rgb(244, 243, 243);
+  border-top: 1px solid rgb(204, 204, 204);
+  border-right: 1px solid rgb(204, 204, 204);
+  border-bottom: 1px solid rgb(204, 204, 204);
+  border-left: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  width: 64px;
+  height: 41px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.aramabutonu:hover .arama,
+.sesliaramabutonu:hover .sesliarama,
+.ikon:hover .oluşturucu{
+  opacity: 0.9;
+}
+
+.arama{
+  position:absolute;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  background-color: rgb(100, 100, 100);
+  color: white;
+  padding: 10px 4px;
+  border-radius: 2px;
+  margin-top: 16px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.aramaikonu{
+  width: 24px;
+  height: 24px;
+  margin-top: 2px;
+}
+
+.sesliaramabutonu{
+  position: relative;
+  background-color: rgb(244, 244, 244);
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.sesliarama{
+  width: 120px;
+  position:absolute;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  background-color: rgb(100, 100, 100);
+  color: white;
+  padding: 10px 4px;
+  border-radius: 2px;
+  margin-top: 20px;
+  margin-left: -45px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sesliaramaikonu{
+  width: 24px; 
+  height: 24px; 
+}
+
+.sağ{
+  position: relative;
+  display: flex;
+  width: 195px;
+  margin-top: 6px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.ikon{
+  position: relative;
+  cursor: pointer;
+}
+
+.create, .youtubeapps, .notifications{
+  height: 24px;
+}
+
+.oluşturucu{
+  position:absolute;
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  background-color: rgb(100, 100, 100);
+  color: white;
+  padding: 10px 4px;
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-left: -8px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.bildirim{
+  background-color: red;
+  color: white;
+  padding: 1.5px 4px;
+  border-radius: 10px;
+  font-size: 10px;
+  position: absolute;
+  right: -2.5px;
+  top: -2px;
+  cursor: pointer;
+}
+
+.mychannel{
+  width: 32px;
+  border-radius: 16px;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+
